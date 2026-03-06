@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { ChevronRight, Zap, Clock, Shield } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Zap, Clock, Shield } from 'lucide-react';
 import { productApi, categoryApi } from '../api/product.api';
 import ProductCard from '../components/product/ProductCard';
 import { Category } from '../types';

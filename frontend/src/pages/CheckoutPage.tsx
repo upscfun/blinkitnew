@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { MapPin, Plus, Tag, ChevronRight, Zap } from 'lucide-react';
+import { MapPin, Plus, Tag, Zap } from 'lucide-react';
 import { addressApi, orderApi } from '../api/order.api';
 import { useCartStore } from '../store/cartStore';
 import { Address } from '../types';

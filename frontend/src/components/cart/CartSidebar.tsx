@@ -1,5 +1,5 @@
-import { X, ShoppingCart, Trash2 } from 'lucide-react';
-import { Link, useNavigate } from 'react-router-dom';
+import { X, ShoppingCart } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { useCartStore } from '../../store/cartStore';
 import CartItemRow from './CartItemRow';
 
